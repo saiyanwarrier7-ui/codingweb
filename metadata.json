@@ -1,0 +1,6 @@
+{
+  "name": "CodeArena",
+  "description": "CodeArena – Online Coding Practice Platform. Practice Python, C++, C, HTML, and Java with real-time code execution, student dashboards, and competitive leaderboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1402 @@
+{
+  "profiles": [
+    {
+      "id": "usr_admin_01",
+      "email": "admin@codearena.dev",
+      "password_hash": "$2b$10$KCFR0AUnDlRhYZMzmVI32O6R9Xj2x/dZGHQD2hKjz6HryFPEPvps.",
+      "full_name": "Professor Alan Turing",
+      "college_name": "MIT",
+      "department": "Computer Science & Engineering",
+      "year_of_study": "Faculty / Admin",
+      "role": "admin",
+      "created_at": "2026-09-15T08:25:15.618Z"
+    },
+    {
+      "id": "usr_alex_02",
+      "email": "alex.dev@college.edu",
+      "password_hash": "$2b$10$KCFR0AUnDlRhYZMzmVI32OO8S6mYNjHZbdJ6hyGms8m/MP.vbqa2.",
+      "full_name": "Alex Rivera",
+      "college_name": "Stanford University",
+      "department": "Software Engineering",
+      "year_of_study": "3rd Year",
+      "role": "student",
+      "created_at": "2026-10-01T08:25:15.619Z"
+    },
+    {
+      "id": "usr_priya_03",
+      "email": "priya.sharma@iit.ac.in",
+      "password_hash": "$2b$10$KCFR0AUnDlRhYZMzmVI32OO8S6mYNjHZbdJ6hyGms8m/MP.vbqa2.",
+      "full_name": "Priya Sharma",
+      "college_name": "IIT Bombay",
+      "department": "Computer Science",
+      "year_of_study": "4th Year",
+      "role": "student",
+      "created_at": "2026-09-25T08:25:15.619Z"
+    },
+    {
+      "id": "usr_marcus_04",
+      "email": "marcus.chen@berkeley.edu",
+      "password_hash": "$2b$10$KCFR0AUnDlRhYZMzmVI32OO8S6mYNjHZbdJ6hyGms8m/MP.vbqa2.",
+      "full_name": "Marcus Chen",
+      "college_name": "UC Berkeley",
+      "department": "Electrical Engineering & CS",
+      "year_of_study": "2nd Year",
+      "role": "student",
+      "created_at": "2026-10-05T08:25:15.619Z"
+    }
+  ],
+  "languages": [
+    {
+      "id": "lang_python",
+      "name": "Python",
+      "slug": "python",
+      "editor_mode": "python",
+      "execution_language_id": "python3",
+      "icon": "FileCode2",
+      "badge_color": "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
+      "description": "High-level, versatile language renowned for concise syntax, data science, and web development.",
+      "is_enabled": true,
+      "topics": [
+        {
+          "title": "Variables & Data Types",
+          "description": "Primitives, numeric types, strings, type casting, and standard I/O.",
+          "difficulty": "Easy",
+          "items": [
+            "Integers, Floats, Strings",
+            "Booleans and NoneType",
+            "Input & Output Formatting"
+          ]
+        },
+        {
+          "title": "Conditions & Loops",
+          "description": "if-elif-else statements, for loops with range, while loops, and break/continue.",
+          "difficulty": "Easy",
+          "items": [
+            "Decision Making",
+            "For & While Iterations",
+            "List Comprehensions"
+          ]
+        },
+        {
+          "title": "Functions & Modules",
+          "description": "Defining functions, default arguments, *args/**kwargs, and lambda functions.",
+          "difficulty": "Easy",
+          "items": [
+            "Function Scope",
+            "Recursion Fundamentals",
+            "Lambda & Higher-Order Functions"
+          ]
+        },
+        {
+          "title": "Data Structures",
+          "description": "Lists, tuples, dictionaries, sets, and collections module.",
+          "difficulty": "Medium",
+          "items": [
+            "Dictionary Lookups",
+            "Set Operations",
+            "Stack and Queue implementations"
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "description": "Classes, dunder methods, inheritance, encapsulation, and polymorphism.",
+          "difficulty": "Medium",
+          "items": [
+            "Class Construction",
+            "Inheritance & Super",
+            "Encapsulation & Properties"
+          ]
+        },
+        {
+          "title": "Algorithms & Advanced",
+          "description": "Sorting, binary search, dynamic programming, and memoization.",
+          "difficulty": "Hard",
+          "items": [
+            "Divide and Conquer",
+            "Two Pointers & Sliding Window",
+            "Graph Traversals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lang_cpp",
+      "name": "C++",
+      "slug": "cpp",
+      "editor_mode": "cpp",
+      "execution_language_id": "gcc-13.2.0",
+      "icon": "Cpu",
+      "badge_color": "bg-blue-500/20 text-blue-400 border-blue-500/30",
+      "description": "Blazing-fast compiled language used widely in competitive programming, game engines, and systems.",
+      "is_enabled": true,
+      "topics": [
+        {
+          "title": "Variables & Operators",
+          "description": "Data types, arithmetic and bitwise operators, cin/cout fast I/O.",
+          "difficulty": "Easy",
+          "items": [
+            "Basic Types & Overflow",
+            "Fast I/O with ios_base",
+            "Bitwise Manipulation"
+          ]
+        },
+        {
+          "title": "Control Flow & Loops",
+          "description": "Branching logic, nested loops, switch-case, and break/continue.",
+          "difficulty": "Easy",
+          "items": [
+            "Conditionals",
+            "Loop Constructs",
+            "Jump Statements"
+          ]
+        },
+        {
+          "title": "Functions & Pointers",
+          "description": "Pass by value vs reference, pointer arithmetic, and memory addressing.",
+          "difficulty": "Medium",
+          "items": [
+            "Pointers and Memory",
+            "Pass by Reference",
+            "Function Overloading"
+          ]
+        },
+        {
+          "title": "Standard Template Library (STL)",
+          "description": "Vectors, sets, maps, priority queues, and sorting algorithms.",
+          "difficulty": "Medium",
+          "items": [
+            "Vector & Deque",
+            "std::map and std::set",
+            "std::priority_queue & Heap"
+          ]
+        },
+        {
+          "title": "Classes & OOP",
+          "description": "Constructors, destructors, operator overloading, and inheritance.",
+          "difficulty": "Medium",
+          "items": [
+            "Encapsulation",
+            "Operator Overloading",
+            "Virtual Functions & Polymorphism"
+          ]
+        },
+        {
+          "title": "Advanced Competitive Programming",
+          "description": "Segment trees, Fenwick trees, binary lifting, and DP with bitmasks.",
+          "difficulty": "Hard",
+          "items": [
+            "Graph & Trees",
+            "Dynamic Programming",
+            "Disjoint Set Union (DSU)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lang_c",
+      "name": "C",
+      "slug": "c",
+      "editor_mode": "c",
+      "execution_language_id": "gcc-13.2.0-c",
+      "icon": "Code",
+      "badge_color": "bg-cyan-500/20 text-cyan-400 border-cyan-500/30",
+      "description": "The mother of modern languages. Master pointers, manual memory allocation, and hardware closeness.",
+      "is_enabled": true,
+      "topics": [
+        {
+          "title": "Data Types & I/O",
+          "description": "printf, scanf, format specifiers, type modifiers, and preprocessor directives.",
+          "difficulty": "Easy",
+          "items": [
+            "Format Specifiers",
+            "Primitive Memory Sizes",
+            "Preprocessor Macros"
+          ]
+        },
+        {
+          "title": "Control Structures",
+          "description": "if-else, while, do-while, and for loops with pattern problems.",
+          "difficulty": "Easy",
+          "items": [
+            "Nested Conditionals",
+            "Loop Optimization",
+            "Pattern Printing"
+          ]
+        },
+        {
+          "title": "Pointers & Dynamic Memory",
+          "description": "Address-of operator, pointer dereferencing, malloc, calloc, realloc, and free.",
+          "difficulty": "Medium",
+          "items": [
+            "Pointer Fundamentals",
+            "malloc and free",
+            "Memory Leaks & Valgrind Basics"
+          ]
+        },
+        {
+          "title": "Structures & Unions",
+          "description": "Custom user-defined types, nested structs, and typedef.",
+          "difficulty": "Medium",
+          "items": [
+            "struct Definitions",
+            "Pointers to Structs (->)",
+            "Memory Alignment"
+          ]
+        },
+        {
+          "title": "Data Structures in C",
+          "description": "Building linked lists, stacks, and binary trees from scratch with pointers.",
+          "difficulty": "Hard",
+          "items": [
+            "Singly Linked List",
+            "Doubly Linked List",
+            "Binary Search Tree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lang_html",
+      "name": "HTML",
+      "slug": "html",
+      "editor_mode": "html",
+      "execution_language_id": "html-preview",
+      "icon": "Globe",
+      "badge_color": "bg-amber-500/20 text-amber-400 border-amber-500/30",
+      "description": "Hypertext Markup Language. Build structured, accessible web pages with live sandboxed previews.",
+      "is_enabled": true,
+      "topics": [
+        {
+          "title": "Document Structure & Semantics",
+          "description": "DOCTYPE, html, head, body, header, nav, main, section, article, footer.",
+          "difficulty": "Easy",
+          "items": [
+            "Semantic Hierarchy",
+            "Meta Tags & Head Information",
+            "Text Typography Tags"
+          ]
+        },
+        {
+          "title": "Lists, Tables & Media",
+          "description": "Ordered/unordered lists, tabular data structures, images, and audio/video.",
+          "difficulty": "Easy",
+          "items": [
+            "Nested Lists",
+            "Table Rows, Cols & Headers",
+            "Responsive Images & Figure"
+          ]
+        },
+        {
+          "title": "Forms & Input Validation",
+          "description": "Input types, form validation, labels, selects, textareas, and buttons.",
+          "difficulty": "Medium",
+          "items": [
+            "Form Controls",
+            "HTML5 Validation Attributes",
+            "Accessible Form Controls"
+          ]
+        },
+        {
+          "title": "Web Components & Layout",
+          "description": "Combining HTML with CSS Flexbox/Grid and interactive JavaScript scripts.",
+          "difficulty": "Medium",
+          "items": [
+            "Card Component Structure",
+            "Navigation Bars",
+            "Sandboxed IFrame Safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lang_java",
+      "name": "Java",
+      "slug": "java",
+      "editor_mode": "java",
+      "execution_language_id": "openjdk-jdk-21+35",
+      "icon": "Coffee",
+      "badge_color": "bg-orange-500/20 text-orange-400 border-orange-500/30",
+      "description": "Robust, enterprise-grade, object-oriented language running on billions of devices worldwide.",
+      "is_enabled": true,
+      "topics": [
+        {
+          "title": "Basics & Syntax",
+          "description": "Variables, primitive types, operators, and Scanner standard input.",
+          "difficulty": "Easy",
+          "items": [
+            "Primitive Types",
+            "Scanner I/O",
+            "Type Casting"
+          ]
+        },
+        {
+          "title": "Methods & Arrays",
+          "description": "Static methods, 1D and 2D arrays, method overloading, and recursion.",
+          "difficulty": "Easy",
+          "items": [
+            "Array Manipulation",
+            "Method Parameters & Return",
+            "Call Stack & Recursion"
+          ]
+        },
+        {
+          "title": "OOP Fundamentals",
+          "description": "Classes, objects, constructors, encapsulation, getters and setters.",
+          "difficulty": "Medium",
+          "items": [
+            "Constructors & this",
+            "Access Modifiers",
+            "Static vs Instance Members"
+          ]
+        },
+        {
+          "title": "Inheritance & Interfaces",
+          "description": "extends, implements, abstract classes, and polymorphism.",
+          "difficulty": "Medium",
+          "items": [
+            "Abstract Classes",
+            "Interface Contracts",
+            "Polymorphic Method Dispatch"
+          ]
+        },
+        {
+          "title": "Java Collections Framework",
+          "description": "ArrayList, LinkedList, HashMap, HashSet, and PriorityQueue.",
+          "difficulty": "Medium",
+          "items": [
+            "List & Set Implementations",
+            "Map Key-Value Store",
+            "Comparable & Comparator"
+          ]
+        },
+        {
+          "title": "Exception Handling & Multithreading",
+          "description": "try-catch-finally, custom exceptions, Thread class, and Runnable.",
+          "difficulty": "Hard",
+          "items": [
+            "Checked vs Unchecked Exceptions",
+            "Thread Basics",
+            "Stream API & Lambdas"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "id": "two-sum",
+      "title": "Add Two Numbers",
+      "slug": "two-sum",
+      "description": "Write a program that takes two integers $A$ and $B$ from standard input and prints their sum.\n\n### Task\nRead two space-separated integers $A$ and $B$, compute $A + B$, and output the result.",
+      "input_format": "A single line containing two space-separated integers $A$ and $B$.",
+      "output_format": "Print a single integer representing the sum $A + B$.",
+      "constraints": "-10^9 <= A, B <= 10^9",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Basics",
+        "Math"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "# Read two space-separated integers\na, b = map(int, input().split())\nprint(a + b)\n",
+        "cpp": "#include <iostream>\nusing namespace std;\n\nint main() {\n    long long a, b;\n    if (cin >> a >> b) {\n        cout << (a + b) << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n\nint main() {\n    long long a, b;\n    if (scanf(\"%lld %lld\", &a, &b) == 2) {\n        printf(\"%lld\\n\", a + b);\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        if (scanner.hasNextLong()) {\n            long a = scanner.nextLong();\n            long b = scanner.nextLong();\n            System.out.println(a + b);\n        }\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "3 5",
+          "expected_output": "8",
+          "explanation": "3 + 5 = 8."
+        },
+        {
+          "input": "-10 25",
+          "expected_output": "15",
+          "explanation": "-10 + 25 = 15."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-15T08:25:15.619Z",
+      "updated_at": "2026-09-15T08:25:15.619Z"
+    },
+    {
+      "id": "even-or-odd",
+      "title": "Even or Odd Number",
+      "slug": "even-or-odd",
+      "description": "Given an integer $N$, determine whether the number is **Even** or **Odd**.\n\nPrint `Even` if the integer is divisible by 2 with remainder 0, otherwise print `Odd`.",
+      "input_format": "A single integer $N$.",
+      "output_format": "Print \"Even\" or \"Odd\" (without quotes).",
+      "constraints": "-10^9 <= N <= 10^9",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Basics",
+        "Conditionals"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "n = int(input().strip())\nif n % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n",
+        "cpp": "#include <iostream>\nusing namespace std;\n\nint main() {\n    long long n;\n    if (cin >> n) {\n        if (n % 2 == 0) cout << \"Even\" << endl;\n        else cout << \"Odd\" << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n\nint main() {\n    long long n;\n    if (scanf(\"%lld\", &n) == 1) {\n        if (n % 2 == 0) printf(\"Even\\n\");\n        else printf(\"Odd\\n\");\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long n = sc.nextLong();\n        System.out.println(n % 2 == 0 ? \"Even\" : \"Odd\");\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "4",
+          "expected_output": "Even",
+          "explanation": "4 is divisible by 2."
+        },
+        {
+          "input": "7",
+          "expected_output": "Odd",
+          "explanation": "7 leaves a remainder of 1 when divided by 2."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-17T08:25:15.619Z",
+      "updated_at": "2026-09-17T08:25:15.619Z"
+    },
+    {
+      "id": "palindrome-check",
+      "title": "Palindrome String Checker",
+      "slug": "palindrome-check",
+      "description": "A palindrome is a word, phrase, or sequence that reads the same backward as forward.\n\nGiven a single string $S$ consisting of alphanumeric characters, determine if it is a palindrome. Case-sensitive.\n\nPrint `YES` if it is a palindrome, otherwise print `NO`.",
+      "input_format": "A single string $S$ with no internal spaces.",
+      "output_format": "Print \"YES\" or \"NO\".",
+      "constraints": "1 <= length(S) <= 10^5",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Strings",
+        "Two Pointers"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "s = input().strip()\nif s == s[::-1]:\n    print(\"YES\")\nelse:\n    print(\"NO\")\n",
+        "cpp": "#include <iostream>\n#include <string>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    string s;\n    if (cin >> s) {\n        string rev = s;\n        reverse(rev.begin(), rev.end());\n        cout << (s == rev ? \"YES\" : \"NO\") << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char s[100005];\n    if (scanf(\"%s\", s) == 1) {\n        int len = strlen(s);\n        int is_pal = 1;\n        for (int i = 0; i < len / 2; i++) {\n            if (s[i] != s[len - 1 - i]) {\n                is_pal = 0;\n                break;\n            }\n        }\n        printf(\"%s\\n\", is_pal ? \"YES\" : \"NO\");\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String s = sc.next();\n        String rev = new StringBuilder(s).reverse().toString();\n        System.out.println(s.equals(rev) ? \"YES\" : \"NO\");\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "racecar",
+          "expected_output": "YES",
+          "explanation": "\"racecar\" reversed is \"racecar\"."
+        },
+        {
+          "input": "hello",
+          "expected_output": "NO",
+          "explanation": "\"hello\" reversed is \"olleh\"."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-20T08:25:15.619Z",
+      "updated_at": "2026-09-20T08:25:15.619Z"
+    },
+    {
+      "id": "factorial",
+      "title": "Factorial of a Number",
+      "slug": "factorial",
+      "description": "Compute $N!$ (N factorial) for a non-negative integer $N$.\n\nRecall that $0! = 1$ and for $N > 0$, $N! = 1 \\times 2 \\times 3 \\times ... \\times N$.",
+      "input_format": "A single non-negative integer $N$.",
+      "output_format": "Print the value of $N!$.",
+      "constraints": "0 <= N <= 20",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Math",
+        "Recursion"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "import math\nn = int(input().strip())\nprint(math.factorial(n))\n",
+        "cpp": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    if (cin >> n) {\n        long long ans = 1;\n        for (int i = 2; i <= n; i++) ans *= i;\n        cout << ans << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        unsigned long long ans = 1;\n        for (int i = 2; i <= n; i++) ans *= i;\n        printf(\"%llu\\n\", ans);\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        long ans = 1;\n        for (int i = 2; i <= n; i++) ans *= i;\n        System.out.println(ans);\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "5",
+          "expected_output": "120",
+          "explanation": "5! = 5 * 4 * 3 * 2 * 1 = 120."
+        },
+        {
+          "input": "0",
+          "expected_output": "1",
+          "explanation": "0! is defined as 1."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-23T08:25:15.619Z",
+      "updated_at": "2026-09-23T08:25:15.619Z"
+    },
+    {
+      "id": "fibonacci-sequence",
+      "title": "Nth Fibonacci Number",
+      "slug": "fibonacci-sequence",
+      "description": "The Fibonacci sequence is defined as:\n- $F(0) = 0$\n- $F(1) = 1$\n- $F(n) = F(n-1) + F(n-2)$ for $n \\ge 2$.\n\nGiven $N$, compute $F(N)$.",
+      "input_format": "A single non-negative integer $N$.",
+      "output_format": "Print the $N$-th Fibonacci number.",
+      "constraints": "0 <= N <= 50",
+      "difficulty": "Medium",
+      "topic_tags": [
+        "Dynamic Programming",
+        "Math"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "n = int(input().strip())\nif n == 0:\n    print(0)\nelif n == 1:\n    print(1)\nelse:\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    print(b)\n",
+        "cpp": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    if (cin >> n) {\n        if (n == 0) { cout << 0 << endl; return 0; }\n        if (n == 1) { cout << 1 << endl; return 0; }\n        long long a = 0, b = 1;\n        for (int i = 2; i <= n; i++) {\n            long long next = a + b;\n            a = b;\n            b = next;\n        }\n        cout << b << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        if (n == 0) { printf(\"0\\n\"); return 0; }\n        if (n == 1) { printf(\"1\\n\"); return 0; }\n        long long a = 0, b = 1;\n        for (int i = 2; i <= n; i++) {\n            long long next = a + b;\n            a = b;\n            b = next;\n        }\n        printf(\"%lld\\n\", b);\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        if (n == 0) { System.out.println(0); return; }\n        if (n == 1) { System.out.println(1); return; }\n        long a = 0, b = 1;\n        for (int i = 2; i <= n; i++) {\n            long c = a + b;\n            a = b;\n            b = c;\n        }\n        System.out.println(b);\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "7",
+          "expected_output": "13",
+          "explanation": "F(0)=0, F(1)=1, F(2)=1, F(3)=2, F(4)=3, F(5)=5, F(6)=8, F(7)=13."
+        },
+        {
+          "input": "10",
+          "expected_output": "55",
+          "explanation": "F(10) is 55."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-25T08:25:15.619Z",
+      "updated_at": "2026-09-25T08:25:15.619Z"
+    },
+    {
+      "id": "prime-number-check",
+      "title": "Prime Number Detection",
+      "slug": "prime-number-check",
+      "description": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\n\nGiven an integer $N$, determine if it is a prime number. Output `PRIME` or `NOT PRIME`.",
+      "input_format": "A single integer $N$.",
+      "output_format": "Print \"PRIME\" or \"NOT PRIME\".",
+      "constraints": "1 <= N <= 10^9",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Math",
+        "Algorithms"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "import math\n\ndef is_prime(n):\n    if n <= 1:\n        return False\n    if n <= 3:\n        return True\n    if n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i <= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True\n\nn = int(input().strip())\nprint(\"PRIME\" if is_prime(n) else \"NOT PRIME\")\n",
+        "cpp": "#include <iostream>\nusing namespace std;\n\nbool isPrime(long long n) {\n    if (n <= 1) return false;\n    if (n <= 3) return true;\n    if (n % 2 == 0 || n % 3 == 0) return false;\n    for (long long i = 5; i * i <= n; i += 6) {\n        if (n % i == 0 || n % (i + 2) == 0) return false;\n    }\n    return true;\n}\n\nint main() {\n    long long n;\n    if (cin >> n) {\n        cout << (isPrime(n) ? \"PRIME\" : \"NOT PRIME\") << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n#include <stdbool.h>\n\nbool isPrime(long long n) {\n    if (n <= 1) return false;\n    if (n <= 3) return true;\n    if (n % 2 == 0 || n % 3 == 0) return false;\n    for (long long i = 5; i * i <= n; i += 6) {\n        if (n % i == 0 || n % (i + 2) == 0) return false;\n    }\n    return true;\n}\n\nint main() {\n    long long n;\n    if (scanf(\"%lld\", &n) == 1) {\n        printf(\"%s\\n\", isPrime(n) ? \"PRIME\" : \"NOT PRIME\");\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    static boolean isPrime(long n) {\n        if (n <= 1) return false;\n        if (n <= 3) return true;\n        if (n % 2 == 0 || n % 3 == 0) return false;\n        for (long i = 5; i * i <= n; i += 6) {\n            if (n % i == 0 || n % (i + 2) == 0) return false;\n        }\n        return true;\n    }\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        long n = sc.nextLong();\n        System.out.println(isPrime(n) ? \"PRIME\" : \"NOT PRIME\");\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "17",
+          "expected_output": "PRIME",
+          "explanation": "17 is only divisible by 1 and 17."
+        },
+        {
+          "input": "24",
+          "expected_output": "NOT PRIME",
+          "explanation": "24 is divisible by 2, 3, 4, 6, 8, 12."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-27T08:25:15.619Z",
+      "updated_at": "2026-09-27T08:25:15.619Z"
+    },
+    {
+      "id": "find-largest-element",
+      "title": "Find Maximum Element in Array",
+      "slug": "find-largest-element",
+      "description": "Given an array of $N$ integers, find and print the maximum value in the array.",
+      "input_format": "The first line contains an integer $N$.\nThe second line contains $N$ space-separated integers.",
+      "output_format": "Print the maximum value present in the array.",
+      "constraints": "1 <= N <= 10^5\n-10^9 <= A[i] <= 10^9",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Arrays"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "n = int(input().strip())\narr = list(map(int, input().split()))\nprint(max(arr))\n",
+        "cpp": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    int n;\n    if (cin >> n) {\n        long long mx = -1e18;\n        for (int i = 0; i < n; i++) {\n            long long val;\n            cin >> val;\n            if (val > mx) mx = val;\n        }\n        cout << mx << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        long long max_val = -1000000000000000000LL;\n        for (int i = 0; i < n; i++) {\n            long long x;\n            scanf(\"%lld\", &x);\n            if (x > max_val) max_val = x;\n        }\n        printf(\"%lld\\n\", max_val);\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        long max = Long.MIN_VALUE;\n        for (int i = 0; i < n; i++) {\n            long v = sc.nextLong();\n            if (v > max) max = v;\n        }\n        System.out.println(max);\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "5\n12 45 8 99 23",
+          "expected_output": "99",
+          "explanation": "99 is the highest integer in the array."
+        },
+        {
+          "input": "3\n-10 -25 -4",
+          "expected_output": "-4",
+          "explanation": "-4 is greater than -10 and -25."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-09-30T08:25:15.619Z",
+      "updated_at": "2026-09-30T08:25:15.619Z"
+    },
+    {
+      "id": "sort-array",
+      "title": "Sort Numbers in Ascending Order",
+      "slug": "sort-array",
+      "description": "Given an unsorted array of $N$ integers, sort the array in ascending order and print the elements separated by spaces.",
+      "input_format": "The first line contains $N$.\nThe second line contains $N$ space-separated integers.",
+      "output_format": "Print the sorted array elements on a single line separated by spaces.",
+      "constraints": "1 <= N <= 10^5\n-10^9 <= A[i] <= 10^9",
+      "difficulty": "Medium",
+      "topic_tags": [
+        "Sorting",
+        "Algorithms"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "n = int(input().strip())\narr = list(map(int, input().split()))\narr.sort()\nprint(\" \".join(map(str, arr)))\n",
+        "cpp": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    int n;\n    if (cin >> n) {\n        vector<long long> a(n);\n        for (int i = 0; i < n; i++) cin >> a[i];\n        sort(a.begin(), a.end());\n        for (int i = 0; i < n; i++) {\n            cout << a[i] << (i + 1 == n ? \"\" : \" \");\n        }\n        cout << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n#include <stdlib.h>\n\nint cmp(const void *a, const void *b) {\n    long long diff = (*(long long*)a - *(long long*)b);\n    return (diff > 0) - (diff < 0);\n}\n\nint main() {\n    int n;\n    if (scanf(\"%d\", &n) == 1) {\n        long long *arr = (long long*)malloc(n * sizeof(long long));\n        for (int i = 0; i < n; i++) scanf(\"%lld\", &arr[i]);\n        qsort(arr, n, sizeof(long long), cmp);\n        for (int i = 0; i < n; i++) {\n            printf(\"%lld%s\", arr[i], (i + 1 == n) ? \"\" : \" \");\n        }\n        printf(\"\\n\");\n        free(arr);\n    }\n    return 0;\n}\n",
+        "java": "import java.util.*;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        long[] arr = new long[n];\n        for (int i = 0; i < n; i++) arr[i] = sc.nextLong();\n        Arrays.sort(arr);\n        StringBuilder sb = new StringBuilder();\n        for (int i = 0; i < n; i++) {\n            sb.append(arr[i]);\n            if (i < n - 1) sb.append(\" \");\n        }\n        System.out.println(sb.toString());\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "5\n5 2 9 1 5",
+          "expected_output": "1 2 5 5 9",
+          "explanation": "Elements sorted in non-decreasing order."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-10-03T08:25:15.619Z",
+      "updated_at": "2026-10-03T08:25:15.619Z"
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search Target Index",
+      "slug": "binary-search",
+      "description": "Given a strictly increasing sorted array of $N$ integers and a target value $K$, return the 0-based index of $K$ in the array.\n\nIf $K$ does not exist in the array, print `-1`. You must implement $O(\\log N)$ binary search.",
+      "input_format": "The first line contains $N$ and $K$.\nThe second line contains $N$ sorted integers.",
+      "output_format": "Print the 0-based index of $K$, or -1 if not found.",
+      "constraints": "1 <= N <= 10^5\n-10^9 <= A[i], K <= 10^9",
+      "difficulty": "Medium",
+      "topic_tags": [
+        "Binary Search",
+        "Algorithms"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "import bisect\nn, k = map(int, input().split())\narr = list(map(int, input().split()))\nidx = bisect.bisect_left(arr, k)\nif idx < n and arr[idx] == k:\n    print(idx)\nelse:\n    print(-1)\n",
+        "cpp": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    int n; long long k;\n    if (cin >> n >> k) {\n        vector<long long> a(n);\n        for (int i = 0; i < n; i++) cin >> a[i];\n        int l = 0, r = n - 1, ans = -1;\n        while (l <= r) {\n            int mid = l + (r - l) / 2;\n            if (a[mid] == k) { ans = mid; break; }\n            else if (a[mid] < k) l = mid + 1;\n            else r = mid - 1;\n        }\n        cout << ans << endl;\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    int n;\n    long long k;\n    if (scanf(\"%d %lld\", &n, &k) == 2) {\n        long long *a = (long long*)malloc(n * sizeof(long long));\n        for (int i = 0; i < n; i++) scanf(\"%lld\", &a[i]);\n        int l = 0, r = n - 1, ans = -1;\n        while (l <= r) {\n            int mid = l + (r - l) / 2;\n            if (a[mid] == k) { ans = mid; break; }\n            else if (a[mid] < k) l = mid + 1;\n            else r = mid - 1;\n        }\n        printf(\"%d\\n\", ans);\n        free(a);\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        long k = sc.nextLong();\n        long[] a = new long[n];\n        for (int i = 0; i < n; i++) a[i] = sc.nextLong();\n        int l = 0, r = n - 1, ans = -1;\n        while (l <= r) {\n            int mid = l + (r - l) / 2;\n            if (a[mid] == k) { ans = mid; break; }\n            else if (a[mid] < k) l = mid + 1;\n            else r = mid - 1;\n        }\n        System.out.println(ans);\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "6 9\n2 5 7 9 12 15",
+          "expected_output": "3",
+          "explanation": "9 is located at 0-based index 3."
+        },
+        {
+          "input": "5 100\n1 3 5 7 9",
+          "expected_output": "-1",
+          "explanation": "100 is not in the array."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-10-05T08:25:15.619Z",
+      "updated_at": "2026-10-05T08:25:15.619Z"
+    },
+    {
+      "id": "matrix-transpose",
+      "title": "Matrix Transpose",
+      "slug": "matrix-transpose",
+      "description": "Given an $R \\times C$ matrix of integers, output the transpose matrix of size $C \\times R$.\n\nThe transpose of a matrix is formed by turning rows into columns and columns into rows.",
+      "input_format": "The first line contains $R$ and $C$.\nThe next $R$ lines each contain $C$ space-separated integers.",
+      "output_format": "Print $C$ lines, each containing $R$ space-separated integers.",
+      "constraints": "1 <= R, C <= 100\n-10^4 <= Matrix[i][j] <= 10^4",
+      "difficulty": "Medium",
+      "topic_tags": [
+        "Matrices",
+        "2D Arrays"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "r, c = map(int, input().split())\nmatrix = [list(map(int, input().split())) for _ in range(r)]\nfor j in range(c):\n    row = [str(matrix[i][j]) for i in range(r)]\n    print(\" \".join(row))\n",
+        "cpp": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    int r, c;\n    if (cin >> r >> c) {\n        vector<vector<int>> mat(r, vector<int>(c));\n        for (int i = 0; i < r; i++)\n            for (int j = 0; j < c; j++)\n                cin >> mat[i][j];\n        for (int j = 0; j < c; j++) {\n            for (int i = 0; i < r; i++) {\n                cout << mat[i][j] << (i + 1 == r ? \"\" : \" \");\n            }\n            cout << \"\\n\";\n        }\n    }\n    return 0;\n}\n",
+        "c": "#include <stdio.h>\n\nint main() {\n    int r, c;\n    if (scanf(\"%d %d\", &r, &c) == 2) {\n        int mat[105][105];\n        for (int i = 0; i < r; i++)\n            for (int j = 0; j < c; j++)\n                scanf(\"%d\", &mat[i][j]);\n        for (int j = 0; j < c; j++) {\n            for (int i = 0; i < r; i++) {\n                printf(\"%d%s\", mat[i][j], (i + 1 == r) ? \"\" : \" \");\n            }\n            printf(\"\\n\");\n        }\n    }\n    return 0;\n}\n",
+        "java": "import java.util.Scanner;\n\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int r = sc.nextInt();\n        int c = sc.nextInt();\n        int[][] mat = new int[r][c];\n        for (int i = 0; i < r; i++)\n            for (int j = 0; j < c; j++)\n                mat[i][j] = sc.nextInt();\n        for (int j = 0; j < c; j++) {\n            for (int i = 0; i < r; i++) {\n                System.out.print(mat[i][j] + (i + 1 == r ? \"\" : \" \"));\n            }\n            System.out.println();\n        }\n    }\n}\n"
+      },
+      "sample_tests": [
+        {
+          "input": "2 3\n1 2 3\n4 5 6",
+          "expected_output": "1 4\n2 5\n3 6",
+          "explanation": "The 2x3 matrix is transposed into a 3x2 matrix."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-10-07T08:25:15.619Z",
+      "updated_at": "2026-10-07T08:25:15.619Z"
+    },
+    {
+      "id": "html-profile-card",
+      "title": "Developer Profile Card",
+      "slug": "html-profile-card",
+      "description": "Create a semantic HTML developer profile card with an avatar, student name, bio paragraph, skill badges, and a contact button.\n\n### Requirements:\n- An image with an avatar (`<img src=\"...\" alt=\"...\">`)\n- A main heading `<h1>` with the developer name\n- A `<p>` element with a short biography\n- A list `<ul>` with at least 3 skill items `<li>`\n- A `<button>` labeled \"Connect\" or \"View GitHub\"",
+      "input_format": "No standard input. Structured HTML markup.",
+      "output_format": "Rendered DOM containing required tags (img, h1, p, ul, li, button).",
+      "constraints": "Valid HTML5 semantic tags.",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "HTML",
+        "Web Layout"
+      ],
+      "supported_languages": [
+        "html"
+      ],
+      "starter_code": {
+        "html": "<div class=\"profile-card\">\n  <img src=\"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150\" alt=\"Avatar\" class=\"avatar\">\n  <h1>Jane Doe</h1>\n  <p class=\"bio\">Passionate Full-Stack Developer & Open Source Contributor.</p>\n  <ul class=\"skills\">\n    <li>Python</li>\n    <li>React</li>\n    <li>PostgreSQL</li>\n  </ul>\n  <button class=\"btn-connect\">Connect</button>\n</div>\n"
+      },
+      "sample_tests": [
+        {
+          "input": "validation",
+          "expected_output": "img,h1,p,ul,li,button",
+          "explanation": "Checks for presence of img, h1, p, ul, li, and button elements."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-10-10T08:25:15.619Z",
+      "updated_at": "2026-10-10T08:25:15.619Z"
+    },
+    {
+      "id": "html-registration-form",
+      "title": "Student Course Registration Form",
+      "slug": "html-registration-form",
+      "description": "Build an accessible HTML registration form where students can enroll in computer science electives.\n\n### Requirements:\n- A `<form>` element\n- A text input for student name with `<label>`\n- An email input (`type=\"email\"`) with `required` attribute\n- A `<select>` dropdown with at least 3 course `<option>`s\n- A submit `<button type=\"submit\">`",
+      "input_format": "No standard input. Structured HTML markup.",
+      "output_format": "Rendered form containing form, input, label, select, option, button.",
+      "constraints": "Valid HTML5 form elements with appropriate input types.",
+      "difficulty": "Medium",
+      "topic_tags": [
+        "HTML",
+        "Forms"
+      ],
+      "supported_languages": [
+        "html"
+      ],
+      "starter_code": {
+        "html": "<form class=\"registration-form\">\n  <h2>Course Enrollment</h2>\n  <label for=\"name\">Full Name</label>\n  <input id=\"name\" type=\"text\" placeholder=\"John Smith\" required>\n\n  <label for=\"email\">College Email</label>\n  <input id=\"email\" type=\"email\" placeholder=\"john@university.edu\" required>\n\n  <label for=\"course\">Select Elective</label>\n  <select id=\"course\">\n    <option value=\"cs101\">Data Structures & Algorithms</option>\n    <option value=\"cs201\">Full-Stack Web Engineering</option>\n    <option value=\"cs301\">Operating Systems & C++</option>\n  </select>\n\n  <button type=\"submit\">Enroll Now</button>\n</form>\n"
+      },
+      "sample_tests": [
+        {
+          "input": "validation",
+          "expected_output": "form,input,label,select,option,button",
+          "explanation": "Validates complete form controls and accessibility semantics."
+        }
+      ],
+      "is_published": true,
+      "created_at": "2026-10-12T08:25:15.619Z",
+      "updated_at": "2026-10-12T08:25:15.619Z"
+    },
+    {
+      "id": "double-an-integer",
+      "title": "Double an Integer",
+      "slug": "double-an-integer",
+      "description": "Given an integer N, print 2 * N.",
+      "input_format": "An integer N",
+      "output_format": "2 * N",
+      "constraints": "",
+      "difficulty": "Easy",
+      "topic_tags": [
+        "Math",
+        "Basics"
+      ],
+      "supported_languages": [
+        "python",
+        "cpp",
+        "c",
+        "java"
+      ],
+      "starter_code": {
+        "python": "n = int(input())\nprint(n * 2)"
+      },
+      "sample_tests": [
+        {
+          "input": "5",
+          "expected_output": "10"
+        }
+      ],
+      "created_by": "usr_admin_01",
+      "is_published": true,
+      "created_at": "2026-10-15T08:26:12.527Z",
+      "updated_at": "2026-10-15T08:26:12.527Z"
+    }
+  ],
+  "hidden_test_cases": [
+    {
+      "id": "htc_1_1",
+      "problem_id": "two-sum",
+      "input_data": "100 250",
+      "expected_output": "350",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_1_2",
+      "problem_id": "two-sum",
+      "input_data": "-500 -700",
+      "expected_output": "-1200",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_1_3",
+      "problem_id": "two-sum",
+      "input_data": "1000000000 -1000000000",
+      "expected_output": "0",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_2_1",
+      "problem_id": "even-or-odd",
+      "input_data": "0",
+      "expected_output": "Even",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_2_2",
+      "problem_id": "even-or-odd",
+      "input_data": "-99",
+      "expected_output": "Odd",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_2_3",
+      "problem_id": "even-or-odd",
+      "input_data": "1000000002",
+      "expected_output": "Even",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_3_1",
+      "problem_id": "palindrome-check",
+      "input_data": "madam",
+      "expected_output": "YES",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_3_2",
+      "problem_id": "palindrome-check",
+      "input_data": "CodeArena",
+      "expected_output": "NO",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_3_3",
+      "problem_id": "palindrome-check",
+      "input_data": "a",
+      "expected_output": "YES",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_4_1",
+      "problem_id": "factorial",
+      "input_data": "1",
+      "expected_output": "1",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_4_2",
+      "problem_id": "factorial",
+      "input_data": "6",
+      "expected_output": "720",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_4_3",
+      "problem_id": "factorial",
+      "input_data": "10",
+      "expected_output": "3628800",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_5_1",
+      "problem_id": "fibonacci-sequence",
+      "input_data": "0",
+      "expected_output": "0",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_5_2",
+      "problem_id": "fibonacci-sequence",
+      "input_data": "1",
+      "expected_output": "1",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_5_3",
+      "problem_id": "fibonacci-sequence",
+      "input_data": "15",
+      "expected_output": "610",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_6_1",
+      "problem_id": "prime-number-check",
+      "input_data": "1",
+      "expected_output": "NOT PRIME",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_6_2",
+      "problem_id": "prime-number-check",
+      "input_data": "2",
+      "expected_output": "PRIME",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_6_3",
+      "problem_id": "prime-number-check",
+      "input_data": "999983",
+      "expected_output": "PRIME",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_7_1",
+      "problem_id": "find-largest-element",
+      "input_data": "1\n42",
+      "expected_output": "42",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_7_2",
+      "problem_id": "find-largest-element",
+      "input_data": "6\n-1 -5 -2 -9 -3 -7",
+      "expected_output": "-1",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_8_1",
+      "problem_id": "sort-array",
+      "input_data": "4\n10 -2 3 0",
+      "expected_output": "-2 0 3 10",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_9_1",
+      "problem_id": "binary-search",
+      "input_data": "5 1\n1 2 3 4 5",
+      "expected_output": "0",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_9_2",
+      "problem_id": "binary-search",
+      "input_data": "5 5\n1 2 3 4 5",
+      "expected_output": "4",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_10_1",
+      "problem_id": "matrix-transpose",
+      "input_data": "1 3\n7 8 9",
+      "expected_output": "7\n8\n9",
+      "points": 15,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_html_1",
+      "problem_id": "html-profile-card",
+      "input_data": "preview",
+      "expected_output": "img,h1,p,ul,li,button",
+      "points": 20,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_html_2",
+      "problem_id": "html-registration-form",
+      "input_data": "preview",
+      "expected_output": "form,input,label,select,option,button",
+      "points": 25,
+      "time_limit": 2000,
+      "memory_limit": 256
+    },
+    {
+      "id": "htc_double-an-integer_1",
+      "problem_id": "double-an-integer",
+      "input_data": "7",
+      "expected_output": "14",
+      "points": 10,
+      "time_limit": 2000,
+      "memory_limit": 256
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_1792052808848_0ojg",
+      "user_id": "usr_alex_02",
+      "user_name": "Alex Rivera",
+      "problem_id": "two-sum",
+      "problem_title": "Add Two Numbers",
+      "language_id": "python",
+      "source_code": "print(999999)",
+      "status": "Wrong Answer",
+      "passed_test_cases": 0,
+      "total_test_cases": 3,
+      "execution_time": 23,
+      "memory_used": 10240,
+      "error_message": "Failed on test case 1. Expected: \"350\", Got: \"999999\"",
+      "submitted_at": "2026-10-15T08:26:48.848Z"
+    },
+    {
+      "id": "sub_1792052745739_aa33",
+      "user_id": "usr_alex_02",
+      "user_name": "Alex Rivera",
+      "problem_id": "two-sum",
+      "problem_title": "Add Two Numbers",
+      "language_id": "python",
+      "source_code": "a, b = map(int, input().split())\nprint(a + b)",
+      "status": "Accepted",
+      "passed_test_cases": 3,
+      "total_test_cases": 3,
+      "execution_time": 25,
+      "memory_used": 10240,
+      "submitted_at": "2026-10-15T08:25:45.739Z"
+    },
+    {
+      "id": "sub_demo_1",
+      "user_id": "usr_alex_02",
+      "user_name": "Alex Rivera",
+      "problem_id": "two-sum",
+      "problem_title": "Add Two Numbers",
+      "language_id": "python",
+      "source_code": "a, b = map(int, input().split())\nprint(a + b)",
+      "status": "Accepted",
+      "passed_test_cases": 3,
+      "total_test_cases": 3,
+      "execution_time": 24,
+      "memory_used": 10400,
+      "submitted_at": "2026-10-11T08:25:15.619Z"
+    },
+    {
+      "id": "sub_demo_2",
+      "user_id": "usr_alex_02",
+      "user_name": "Alex Rivera",
+      "problem_id": "even-or-odd",
+      "problem_title": "Even or Odd Number",
+      "language_id": "python",
+      "source_code": "n = int(input().strip())\nprint(\"Even\" if n % 2 == 0 else \"Odd\")",
+      "status": "Accepted",
+      "passed_test_cases": 3,
+      "total_test_cases": 3,
+      "execution_time": 22,
+      "memory_used": 10200,
+      "submitted_at": "2026-10-13T08:25:15.619Z"
+    },
+    {
+      "id": "sub_demo_3",
+      "user_id": "usr_priya_03",
+      "user_name": "Priya Sharma",
+      "problem_id": "prime-number-check",
+      "problem_title": "Prime Number Detection",
+      "language_id": "cpp",
+      "source_code": "// C++ solution\n#include <iostream>\nusing namespace std;\nint main() { return 0; }",
+      "status": "Accepted",
+      "passed_test_cases": 3,
+      "total_test_cases": 3,
+      "execution_time": 120,
+      "memory_used": 12500,
+      "submitted_at": "2026-10-14T08:25:15.619Z"
+    },
+    {
+      "id": "sub_demo_4",
+      "user_id": "usr_marcus_04",
+      "user_name": "Marcus Chen",
+      "problem_id": "sort-array",
+      "problem_title": "Sort Numbers in Ascending Order",
+      "language_id": "java",
+      "source_code": "// Java solution",
+      "status": "Accepted",
+      "passed_test_cases": 1,
+      "total_test_cases": 1,
+      "execution_time": 310,
+      "memory_used": 24000,
+      "submitted_at": "2026-10-12T08:25:15.619Z"
+    }
+  ],
+  "problem_progress": [
+    {
+      "id": "pp_1",
+      "user_id": "usr_alex_02",
+      "problem_id": "two-sum",
+      "is_solved": true,
+      "first_solved_at": "2026-10-11T08:25:15.619Z",
+      "last_attempted_at": "2026-10-15T08:26:48.848Z",
+      "attempts_count": 3
+    },
+    {
+      "id": "pp_2",
+      "user_id": "usr_alex_02",
+      "problem_id": "even-or-odd",
+      "is_solved": true,
+      "first_solved_at": "2026-10-13T08:25:15.619Z",
+      "last_attempted_at": "2026-10-13T08:25:15.619Z",
+      "attempts_count": 1
+    },
+    {
+      "id": "pp_3",
+      "user_id": "usr_priya_03",
+      "problem_id": "two-sum",
+      "is_solved": true,
+      "first_solved_at": "2026-10-10T08:25:15.619Z",
+      "last_attempted_at": "2026-10-10T08:25:15.619Z",
+      "attempts_count": 1
+    },
+    {
+      "id": "pp_4",
+      "user_id": "usr_priya_03",
+      "problem_id": "prime-number-check",
+      "is_solved": true,
+      "first_solved_at": "2026-10-14T08:25:15.619Z",
+      "last_attempted_at": "2026-10-14T08:25:15.619Z",
+      "attempts_count": 1
+    },
+    {
+      "id": "pp_5",
+      "user_id": "usr_marcus_04",
+      "problem_id": "sort-array",
+      "is_solved": true,
+      "first_solved_at": "2026-10-12T08:25:15.619Z",
+      "last_attempted_at": "2026-10-12T08:25:15.619Z",
+      "attempts_count": 1
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "bm_1",
+      "user_id": "usr_alex_02",
+      "problem_id": "fibonacci-sequence",
+      "created_at": "2026-10-13T08:25:15.619Z"
+    },
+    {
+      "id": "bm_2",
+      "user_id": "usr_alex_02",
+      "problem_id": "binary-search",
+      "created_at": "2026-10-14T08:25:15.619Z"
+    },
+    {
+      "id": "bm_1792052815396_5ove",
+      "user_id": "usr_alex_02",
+      "problem_id": "factorial",
+      "created_at": "2026-10-15T08:26:55.396Z"
+    }
+  ],
+  "daily_challenges": [
+    {
+      "id": "dc_2026-10-15",
+      "problem_id": "palindrome-check",
+      "challenge_date": "2026-10-15",
+      "points": 50
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_solve",
+      "name": "First Milestone",
+      "description": "Solve your first problem on CodeArena",
+      "badge_icon": "Award",
+      "criteria": "solved_1"
+    },
+    {
+      "id": "solved_5",
+      "name": "Code Cadet",
+      "description": "Solve 5 different coding problems",
+      "badge_icon": "Zap",
+      "criteria": "solved_5"
+    },
+    {
+      "id": "solved_10",
+      "name": "Algorithm Decathlete",
+      "description": "Complete 10 problems successfully",
+      "badge_icon": "Trophy",
+      "criteria": "solved_10"
+    },
+    {
+      "id": "streak_3",
+      "name": "Consistent Coder",
+      "description": "Maintain a 3-day coding streak",
+      "badge_icon": "Flame",
+      "criteria": "streak_3"
+    },
+    {
+      "id": "streak_7",
+      "name": "Unstoppable Momentum",
+      "description": "Maintain a 7-day coding streak",
+      "badge_icon": "Flame",
+      "criteria": "streak_7"
+    },
+    {
+      "id": "python_explorer",
+      "name": "Pythonista",
+      "description": "Submit an accepted solution in Python",
+      "badge_icon": "Terminal",
+      "criteria": "lang_python"
+    },
+    {
+      "id": "cpp_explorer",
+      "name": "C++ Master",
+      "description": "Submit an accepted solution in C++",
+      "badge_icon": "Cpu",
+      "criteria": "lang_cpp"
+    },
+    {
+      "id": "c_explorer",
+      "name": "C Systems Pro",
+      "description": "Submit an accepted solution in C",
+      "badge_icon": "Code",
+      "criteria": "lang_c"
+    },
+    {
+      "id": "java_explorer",
+      "name": "Java Architect",
+      "description": "Submit an accepted solution in Java",
+      "badge_icon": "Coffee",
+      "criteria": "lang_java"
+    },
+    {
+      "id": "web_craftsman",
+      "name": "Web Craftsman",
+      "description": "Complete an interactive HTML layout exercise",
+      "badge_icon": "Globe",
+      "criteria": "lang_html"
+    }
+  ],
+  "user_achievements": [
+    {
+      "id": "ua_1",
+      "user_id": "usr_alex_02",
+      "achievement_id": "first_solve",
+      "earned_at": "2026-10-11T08:25:15.619Z"
+    },
+    {
+      "id": "ua_2",
+      "user_id": "usr_alex_02",
+      "achievement_id": "python_explorer",
+      "earned_at": "2026-10-11T08:25:15.619Z"
+    },
+    {
+      "id": "ua_3",
+      "user_id": "usr_priya_03",
+      "achievement_id": "first_solve",
+      "earned_at": "2026-10-10T08:25:15.619Z"
+    },
+    {
+      "id": "ua_4",
+      "user_id": "usr_priya_03",
+      "achievement_id": "cpp_explorer",
+      "earned_at": "2026-10-14T08:25:15.619Z"
+    },
+    {
+      "id": "ua_5",
+      "user_id": "usr_marcus_04",
+      "achievement_id": "first_solve",
+      "earned_at": "2026-10-12T08:25:15.619Z"
+    },
+    {
+      "id": "ua_6",
+      "user_id": "usr_marcus_04",
+      "achievement_id": "java_explorer",
+      "earned_at": "2026-10-12T08:25:15.619Z"
+    }
+  ]
+}
